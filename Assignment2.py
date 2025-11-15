@@ -49,6 +49,7 @@ def cumulative_sum(arr):
 # This function takes a 2D list (matrix) and returns its transpose.
 def transpose_matrix(matrix):
     transpose = [list(row) for row in zip(*matrix)]
+    
     return transpose
 
 # Function 5: Slicing - Extracting Every Nth Element
